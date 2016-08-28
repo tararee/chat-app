@@ -1,9 +1,14 @@
 {
-  "name": "socket-chat-example",
+  "name": "chat-app",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "my first socket.io app", 
+  "scripts": {
+  	"start": "node index.js"},
   "dependencies": {
     "express": "^4.10.2",
-    "socket.io": "^1.4.8"
+    "socket.io": "^1.4.8"},
+    "engines": {
+    "node": "4.4.7"
   }
 }
+
